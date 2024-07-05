@@ -1,7 +1,7 @@
 package handlers
 
 import (
-    "github.com/sleroq/matrix-wiki/src/components"
+    "github.com/sleroq/matrix-wiki/components"
 
 	"net/http"
 )

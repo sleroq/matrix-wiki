@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sleroq/matrix-wiki/src/handlers"
+	"github.com/sleroq/matrix-wiki/handlers"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	}
 
 	fmt.Printf("Listening on http://%v\n", server.Addr)
+
 	server.ListenAndServe()
 }
