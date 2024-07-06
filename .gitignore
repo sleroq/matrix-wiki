@@ -21,4 +21,7 @@
 go.work
 go.work.sum
 
+/components/*.go
+/components/*.txt
+
 /result
